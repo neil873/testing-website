@@ -1,0 +1,112 @@
+{
+  "pondok": {
+    "nama": "Pondok Pesantren eL BAS OFFICIAL",
+    "alamat": "Jl. Pendidikan No. 123, Kec. Islamic, Kota Madani",
+    "telepon": "(021) 1234-5678",
+    "email": "info@elbas-official.sch.id",
+    "tahun_berdiri": "1995",
+    "visi": "Menjadi lembaga pendidikan Islam terdepan yang mencetak generasi berakhlak mulia, berwawasan luas, dan berkontribusi bagi masyarakat.",
+    "misi": [
+      "Menyelenggarakan pendidikan Islam terpadu dari RA hingga MA",
+      "Membangun karakter santri berdasarkan nilai-nilai Islam",
+      "Mengembangkan potensi akademik dan non-akademik santri",
+      "Menjalin kerjasama dengan orang tua dan masyarakat"
+    ]
+  },
+  "tingkatan_sekolah": [
+    {
+      "id": "ra",
+      "nama": "RA WALADUN SOLIHUN",
+      "jenjang": "Pendidikan Anak Usia Dini",
+      "kelas": "Kelompok A dan B",
+      "jumlah_santri": 45,
+      "kepala_sekolah": "Ustadzah Aminah, S.Pd",
+      "fokus": "Pengembangan karakter Islami, kemampuan dasar baca-tulis-hitung, sosialisasi"
+    },
+    {
+      "id": "mi",
+      "nama": "MI eL BAS",
+      "jenjang": "Madrasah Ibtidaiyah",
+      "kelas": "Kelas 1 - 6",
+      "jumlah_santri": 150,
+      "kepala_sekolah": "Ustadz Drs. Ahmad Fauzi, M.Pd",
+      "fokus": "Dasar-dasar ilmu agama, ilmu pengetahuan umum, bahasa Arab dan Inggris dasar"
+    },
+    {
+      "id": "mts",
+      "nama": "MTs eL-BAS",
+      "jenjang": "Madrasah Tsanawiyah",
+      "kelas": "Kelas 7 - 9",
+      "jumlah_santri": 180,
+      "kepala_sekolah": "Ustadzah Dr. Siti Fatimah, M.A",
+      "fokus": "Pendalaman ilmu agama, sains dan matematika, bahasa Arab dan Inggris menengah"
+    },
+    {
+      "id": "ma",
+      "nama": "MA eL-BAS",
+      "jenjang": "Madrasah Aliyah",
+      "kelas": "Kelas 10 - 12",
+      "jumlah_santri": 200,
+      "kepala_sekolah": "Ustadz Prof. Dr. Muhammad Ridwan, M.Ag",
+      "fokus": "Peminatan IPA, IPS, dan Keagamaan, persiapan perguruan tinggi, penguasaan bahasa asing"
+    }
+  ],
+  "fasilitas": [
+    "Masjid besar",
+    "Perpustakaan dengan 5000+ koleksi buku",
+    "Laboratorium komputer",
+    "Laboratorium sains (Fisika, Kimia, Biologi)",
+    "Laboratorium bahasa",
+    "Aula serbaguna",
+    "Lapangan olahraga",
+    "Asrama putra dan putri",
+    "Kantin sehat",
+    "Klinik kesehatan"
+  ],
+  "ekstrakurikuler": [
+    "Tahfidz Al-Quran",
+    "Kaligrafi",
+    "Marching Band",
+    "Pramuka",
+    "Futsal dan Basket",
+    "Teater Islami",
+    "English Club",
+    "Arabic Club",
+    "Robotik",
+    "Kewirausahaan"
+  ],
+  "prestasi": [
+    {
+      "tahun": "2022",
+      "tingkat": "Nasional",
+      "prestasi": "Juara 1 Musabaqah Tilawatil Quran"
+    },
+    {
+      "tahun": "2022",
+      "tingkat": "Provinsi",
+      "prestasi": "Juara 2 Olimpiade Sains Nasional"
+    },
+    {
+      "tahun": "2023",
+      "tingkat": "Nasional",
+      "prestasi": "Sekolah Adiwiyata Tingkat Nasional"
+    },
+    {
+      "tahun": "2023",
+      "tingkat": "Internasional",
+      "prestasi": "Medali Perak International Mathematics Contest"
+    }
+  ],
+  "staf_pengajar": {
+    "total": 45,
+    "sertifikasi": 38,
+    "lulusan_s2": 25,
+    "lulusan_s3": 8
+  },
+  "kontak_darurat": {
+    "polisi": "110",
+    "ambulans": "118",
+    "pemadam": "113",
+    "rs_terdekat": "(021) 9876-5432"
+  }
+}

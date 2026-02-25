@@ -1,0 +1,30 @@
+[
+  {
+    "id": "muhadhoroh-santri",
+    "judul": "Muhadhoroh Rutin Santri Darul Ma'arif",
+    "kategori": "kegiatan",
+    "tanggal": "2026-02-12",
+    "penulis": "Admin eL-BAS",
+    "gambar": "berita1.jpg",
+    "ringkas": "Melatih mental dan kemampuan dakwah santri.",
+    "isi": [
+      "Pondok Pesantren Darul Ma'arif melaksanakan kegiatan muhadhoroh rutin.",
+      "Kegiatan ini bertujuan melatih mental, keberanian, dan public speaking.",
+      "Santri dibimbing agar siap berdakwah di masyarakat."
+    ]
+  },
+  {
+    "id": "uas-santri",
+    "judul": "Ujian Akhir Semester Berjalan Tertib",
+    "kategori": "akademik",
+    "tanggal": "2026-02-05",
+    "penulis": "Admin eL-BAS",
+    "gambar": "berita2.jpg",
+    "ringkas": "Pelaksanaan UAS berjalan lancar dan disiplin.",
+    "isi": [
+      "Seluruh santri mengikuti UAS dengan tertib.",
+      "Pengawasan dilakukan oleh dewan guru.",
+      "Ujian menjadi evaluasi pembelajaran santri."
+    ]
+  }
+]

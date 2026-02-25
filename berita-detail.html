@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detail Berita</title>
+
+<!-- PAKAI CSS LU YANG SUDAH ADA -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <a href="index.html#berita" class="btn-utama">← Kembali</a>
+
+  <article id="detailBerita" class="berita-card" style="margin-top:30px;"></article>
+</div>
+
+<script>
+const id = new URLSearchParams(window.location.search).get("id");
+
+const berita = {
+  1: {
+    judul: "Santri Darul Ma'arif Ikuti Kegiatan Muhadhoroh",
+    tanggal: "12 Februari 2026",
+    gambar: "img/muhadhoroh.png",
+    isi: `
+      <p>Kegiatan muhadhoroh rutin dilaksanakan untuk melatih mental santri.</p>
+      <p>Santri dilatih berbicara di depan umum, menyampaikan dakwah, dan meningkatkan kepercayaan diri.</p>
+    `
+  },
+  2: {
+    judul: "Ujian Akhir Semester Genap Berjalan Tertib",
+    tanggal: "5 Februari 2026",
+    gambar: "img/berita2.jpg",
+    isi: `
+      <p>Ujian akhir semester diikuti seluruh santri dengan disiplin tinggi.</p>
+      <p>Pengawasan dilakukan secara ketat oleh para ustadz dan ustadzah.</p>
+    `
+  },
+  3: {
+    judul: "Pengajian Akbar Bersama Pembina Yayasan",
+    tanggal: "28 Januari 2026",
+    gambar: "img/berita3.jpg",
+    isi: `
+      <p>Pengajian akbar menjadi sarana mempererat ukhuwah islamiyah.</p>
+      <p>Acara dihadiri santri, wali santri, dan masyarakat sekitar.</p>
+    `
+  }
+};
+
+const data = berita[id];
+
+if (!data) {
+  document.getElementById("detailBerita").innerHTML = "<p>Berita tidak ditemukan</p>";
+} else {
+  document.getElementById("detailBerita").innerHTML = `
+    <div class="berita-img">
+      <img src="${data.gambar}" alt="">
+    </div>
+    <div class="berita-content">
+      <span class="berita-date">${data.tanggal}</span>
+      <h2>${data.judul}</h2>
+      ${data.isi}
+    </div>
+  `;
+}
+</script>
+
+</body>
+</html>
